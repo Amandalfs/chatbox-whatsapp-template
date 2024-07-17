@@ -1,0 +1,26 @@
+#### NOVO PEDIDO ####
+
+#️⃣   Nº pedido: <%= orderNumber %>
+feito em <%= orderDate %>
+
+👤   <%= customerName %>
+📞   <%= customerPhone %>
+
+🛵   Endereço de entrega
+<%= deliveryAddress %>
+
+Link do endereço:
+<%= mapLink %>
+
+------- ITENS DO PEDIDO -------
+
+<%= itensFormatados %>
+
+-------------------------------
+
+SUBTOTAL: R$ <%= subtotal %>
+TAXA DE ENTREGA A NEGOCIAR
+VALOR FINAL: R$ <%= finalAmount %>
+
+PAGAMENTO
+<%= paymentMethod %>: R$ <%= finalAmount %>
